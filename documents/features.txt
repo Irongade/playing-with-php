@@ -1,0 +1,51 @@
+List of functionalities and Pages where they can be found.
+
+NOTE - In my database, excursions are called tours and customers are called users.
+        > List of columns - bookings, tours, users.
+
+The content folder contains all PHP files. 
+
+- All PHP files are listed within the content directory.
+
+    - Pages
+        > Landing page - index.php.
+        > About us page - about-us.php.
+        > Customer Registration page - register.php.
+        > Customer Login Page - login.php.
+        > Customer forgot password page - forgot-password.php
+        > List of available Excursions Page - bookings.php.
+        > Excursion details page - booking.php. (This page also contains the form used for booking the tour/excursion).
+        > Dashboard page for logged in user - dashboard.php. (This page contains )
+        > Booking Success and 404 error page - alert.php.
+        > Session functions - session.php
+
+    - Functions 
+        > Booking function for excursions - makeBooking.php (Can be found in the server sub-directory of the content directory)
+        > fetch user bookings - getBookings.php 
+        > cancel user bookings - cancelBooking.php 
+        > get available excursions - getTours.php 
+        > get excursion details - getTour.php
+        > Logout user function - logoutProcess.php
+        > MysSQL DB connection functions - dbconn.php
+
+    - Components
+        > AuthFormAnimation.php - this file contains the animation used within the authentication forms.
+        > bookingForm.php - contains the form used in the index.php file (this should not be confused for the tour booking form).
+        > footer.php - The footer section of the app.
+        > header.php - The header section of the app.
+        > htmlHeadTags - this is where the all head tags i.e. meta and link tags are kept to be used across all pages. 
+
+    - Utility Functions
+        > Validator functions - validator.php
+        > Santization functions - sanitizeInput.php
+
+
+- All Assets files are listed within the assets directory.
+
+    - Gifs
+    - Images - imgs
+    - Stylesheets - styles
+    - Svgs
+    - Videos
+
+- External Documents like features.txt, credits page, references are listed in the document folder.

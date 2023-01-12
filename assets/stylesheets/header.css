@@ -1,0 +1,130 @@
+/* HEADER SECTION */
+
+.header {
+  width: 100vw;
+  height: 2.5rem;
+  top: 0;
+  position: fixed;
+  z-index: 10;
+  overflow: hidden;
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar {
+  position: fixed;
+  /* overflow: hidden; */
+  z-index: 10;
+  top: 2rem;
+  width: 74.1rem;
+  height: 4.5rem;
+  background-color: var(--color-primary);
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+  height: auto;
+  list-style: none;
+}
+
+.nav__link {
+  padding: 0.5rem;
+  color: var(--color-font-primary);
+  opacity: 0.7;
+  transition: all 0.1s ease;
+}
+
+.nav__link:hover {
+  font-weight: 700;
+  opacity: 1;
+}
+
+.nav__hamburger {
+  background-color: transparent;
+  border: 0;
+  display: none;
+}
+
+.avatar__container {
+  display: inline-block;
+}
+
+.avatar__img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  border: 1px #307296 solid;
+  padding: 2px;
+  background-color: var(--color-white);
+}
+
+.avatar__img-btn {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.avatar__dropdown {
+  display: none;
+  background-color: var(--color-secondary);
+  position: absolute;
+  z-index: 20;
+  box-shadow: var(--box-shadow-regular);
+  overflow: auto;
+  border-radius: 0.25rem;
+}
+
+.avatar__dropdown a {
+  color: var(--color-white);
+  display: block;
+  padding: 0.75rem 1rem;
+}
+
+.avatar__dropdown a:hover {
+  background-color: #307296;
+}
+
+.show__dropdown {
+  display: block;
+}
+
+@media only screen and (max-width: 73.625rem) {
+  .nav-bar {
+    width: 90%;
+  }
+
+  .nav {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 54.875rem) {
+  .nav {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 43rem) {
+  .nav {
+    display: none;
+  }
+  .nav__hamburger {
+    display: inline-block;
+  }
+}

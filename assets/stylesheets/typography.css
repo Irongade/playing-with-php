@@ -1,0 +1,61 @@
+/* text styles */
+
+.banner__heading {
+  color: var(--color-font-primary);
+}
+
+.heading-1 {
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 4.5rem;
+}
+
+.heading-2 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.heading-3 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+
+.heading-4 {
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.heading-5 {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
+
+/* Feature box */
+.feature-box__heading {
+  color: var(--color-font-primary);
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 2rem;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.feature-box__text {
+  font-weight: 300;
+  font-size: 1.375rem;
+  line-height: 2rem;
+  text-align: left;
+}
+
+.card__description {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  text-align: left;
+  color: var(--color-font-primary);
+}
